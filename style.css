@@ -1,0 +1,72 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  padding: 2rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.forecast {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 10px;
+  flex-direction: column;
+}
+.current {
+  padding: 10px;
+  margin-top: 10px;
+  height: 9rem;
+  width: 22rem;
+  border: 2px solid red;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 20px;
+}
+.card {
+  height: 6rem;
+  width: 22rem;
+  border: 2px solid red;
+  margin: 10px 0px 0px 0px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 65px;
+}
+
+input {
+  width: 20rem;
+  font-size: 20px;
+}
+
+button {
+  font-size: 15px;
+  padding: 5px;
+}
+
+.max-min {
+  display: flex;
+  gap: 5rem;
+  margin-top: 2rem;
+}
+
+.description {
+  text-align: center;
+}
+
+.top {
+  justify-content: center;
+  align-items: center;
+  display: flex;
+  margin: 20px;
+  gap: 20px;
+}
+
+.logo {
+  height: 30px;
+}
