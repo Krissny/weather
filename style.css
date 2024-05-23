@@ -1,6 +1,12 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap");
+
 * {
   margin: 0;
   padding: 0;
+  font-family: "Montserrat", sans-serif;
+  font-optical-sizing: auto;
+  font-style: normal;
+  font-weight: 400;
 }
 
 body {
@@ -16,37 +22,57 @@ body {
   justify-content: center;
   gap: 10px;
   flex-direction: column;
+  background-color: #4cd4ac;
+  margin-top: 10px;
+  border-radius: 18px;
+  padding: 10px;
 }
 .current {
-  padding: 10px;
+  border-radius: 10px;
+  padding: 15px;
   margin-top: 10px;
   height: 9rem;
   width: 22rem;
-  border: 2px solid red;
   display: flex;
   justify-content: center;
   align-items: center;
   gap: 20px;
+  background-color: white;
 }
 .card {
   height: 6rem;
   width: 22rem;
-  border: 2px solid red;
   margin: 10px 0px 0px 0px;
   display: flex;
   align-items: center;
   justify-content: center;
-  gap: 65px;
+  gap: 45px;
+  background-color: white;
+  border-radius: 11px;
+  padding: 10px;
+}
+
+.search {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 5px;
 }
 
 input {
-  width: 20rem;
+  width: 16rem;
   font-size: 20px;
+  padding: 10px;
+  border-radius: 16px;
 }
 
 button {
-  font-size: 15px;
+  font-size: 16px;
   padding: 5px;
+  background-color: #4cd4ac;
+  padding: 10px;
+  border-radius: 10px;
+  color: white;
 }
 
 .max-min {
@@ -65,8 +91,27 @@ button {
   display: flex;
   margin: 20px;
   gap: 20px;
+  background: white;
+  padding: 10px;
+  border-radius: 23px;
+}
+
+.top h1 {
+  background-color: #4cd4ac;
+  padding: 10px;
+  border-radius: 14px;
+  color: white;
 }
 
 .logo {
-  height: 30px;
+  height: 50px;
+}
+
+footer a img {
+  height: 50px;
+  filter: invert(1);
+}
+
+footer {
+  margin-top: 10px;
 }
