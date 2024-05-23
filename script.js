@@ -28,7 +28,7 @@ async function forecast(location) {
     update(data);
     unsplash(data.current.condition.text);
   } catch (e) {
-    alert(e);
+    alert("Please Enter a Valid Location");
   }
 }
 
