@@ -50,7 +50,7 @@ body {
   display: flex;
   align-items: center;
   justify-content: center;
-  gap: 45px;
+  gap: 2rem;
   background-color: white;
   border-radius: 11px;
   padding: 10px;
@@ -81,7 +81,7 @@ button {
 
 .max-min {
   display: flex;
-  gap: 5rem;
+  gap: 2rem;
   margin-top: 2rem;
 }
 
