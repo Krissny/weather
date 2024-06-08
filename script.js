@@ -65,7 +65,9 @@ async function unsplash(query) {
     );
     const result = await response.json();
     console.log(result);
-    container.style.background = `url(${result.results[0].urls.full}) no-repeat fixed center`;
+    container.style.background = `url(${result.results[0].urls.full})`;
+    container.style.backgroundSize = `cover`;
+    container.style.backgroundPosition = `center`;
   } catch (e) {
     alert(e);
   }
